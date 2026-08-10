@@ -1,5 +1,9 @@
 # 🏠 House Price Prediction Using Ridge Regression
+### 🏆 Kaggle Ranking
 
+The model was  evaluated on the Kaggle House Prices competition. The Kaggle submission achieved the following ranking:
+
+![Kaggle Ranking](screenshots/ranking.png)
 ## 📌 Project Overview
 
 This project uses Machine Learning to predict house sale prices based on different property characteristics. The project is based on the **House Prices: Advanced Regression Techniques** dataset from Kaggle.
