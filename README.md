@@ -1,9 +1,13 @@
 # 🏠 House Price Prediction Using Ridge Regression
-### 🏆 Kaggle Ranking
 
-The model was  evaluated on the Kaggle House Prices competition. The Kaggle submission achieved the following ranking:
+## 🏆 Kaggle Ranking
+
+The model was evaluated on the Kaggle House Prices competition. The Kaggle submission achieved the following ranking.
 
 ![Kaggle Ranking](screenshots/ranking.png)
+
+---
+
 ## 📌 Project Overview
 
 This project uses Machine Learning to predict house sale prices based on different property characteristics. The project is based on the **House Prices: Advanced Regression Techniques** dataset from Kaggle.
@@ -56,6 +60,7 @@ The dataset contains information about different aspects of houses such as:
 ![Dataset Preview](screenshots/dataset_preview.png)
 
 ### Dataset Shape
+
 ![Dataset Shape](screenshots/dataset_shape.png)
 
 ---
@@ -70,7 +75,7 @@ The `SalePrice` variable was analyzed using descriptive statistics and visualiza
 
 The dataset contains house prices ranging from **$34,900 to $755,000**, with a mean sale price of approximately **$180,921**.
 
-![Sale Price Distribution](screenshots/saleprice_distribution.png)
+![Sale Price Statistics](screenshots/saleprice_statistics.png)
 
 ---
 
@@ -90,7 +95,7 @@ The distribution of `GarageArea` was analyzed to understand the typical garage s
 
 Most houses have garage areas concentrated around the middle range, while a smaller number of houses have very large garages.
 
-![Garage Area Distribution](screenshots/garagearea_distribution.png)
+![Garage Area vs SalePrice](screenshots/garagearea_vs_saleprice.png)
 
 ---
 
@@ -100,8 +105,6 @@ The `MasVnrArea` feature represents the masonry veneer area of the property.
 
 The distribution is highly concentrated toward smaller values, with fewer houses having large masonry veneer areas.
 
-![MasVnrArea Distribution](screenshots/masvnrarea_distribution.png)
-
 ---
 
 ### MasVnrArea vs SalePrice
@@ -109,8 +112,6 @@ The distribution is highly concentrated toward smaller values, with fewer houses
 The relationship between masonry veneer area and sale price was also investigated.
 
 The plot indicates that properties with larger masonry veneer areas can have higher sale prices, although the relationship is not as strong as features such as overall living area.
-
-![MasVnrArea vs SalePrice](screenshots/masvnrarea_vs_saleprice.png)
 
 ---
 
